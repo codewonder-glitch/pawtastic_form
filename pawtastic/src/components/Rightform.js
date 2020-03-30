@@ -54,9 +54,16 @@ export default class Rightform extends Component {
           <br />
           
           <label> 
-          Gender 
-          <input name="Gender" type="text"  value={this.state.Gender} onChange={this.handleChange}/>
-          </label>
+
+          
+                Gender <br />
+                <select class='twoOptions' size="2">
+                  <option value="Female">Female</option>
+                  <option value="Male">Male</option>
+                </select>
+              </label>
+          
+          
           <label> 
           Spayed or Neutered
           <input style={{size:"100px" }} name="Spay" type="text"  value={this.state.Spay} onChange={this.handleChange}/>
