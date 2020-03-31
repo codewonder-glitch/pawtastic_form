@@ -35,49 +35,63 @@ export default class Rightform extends Component {
         <h1>Give us the basic about your pup</h1>
         <label>  
           Name: 
+          <br />
           <input name="name1" type="text"  value={this.state.name1} onChange={this.handleChange}/>
           </label>
           <label>
-              <img src=""></img>
+              
+          <input name="name1" type="text"  value={this.state.name1} onChange={this.handleChange}/>
+       
           </label>
-          <br />
+         
           <br />
           <label> 
           Breed: 
+         <br />
           <input name="Breed" type="text"  value={this.state.Breed} onChange={this.handleChange}/>
           </label>
   
           <label> 
           Birthday:
+          <br />
           <input name="Bday"type="text"  value={this.state.Bday} onChange={this.handleChange}/> 
           </label>
-          <br />
-          <br />
           
-          <label> 
-
           
-                Gender <br />
+          <br />
+          <label>
+        
+        Gender 
+                <br />
                 <select className='twoOptions' size="2">
+                <option value="Male">Male</option>
                   <option value="Female">Female</option>
-                  <option value="Male">Male</option>
+                  
                 </select>
               </label>
-          
-          
           <label> 
-          Spayed or Neutered
-          <input style={{size:"100px" }} name="Spay" type="text"  value={this.state.Spay} onChange={this.handleChange}/>
+          Spayed
+          <br />
+          <select className='twoOptions' size="2">
+                <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                  
+                </select>
           </label>
           <br />
-          <br />
+          
           <label> 
           Weight
-          <input type="text"  value={this.state.Weight} onChange={this.handleChange}/>
-          <br/>
+          <br />
+          <select className='twoOptions' size="2">
+                <option value="Male">0-25lbs</option>
+                  <option value="Male">25-50lbs</option>
+                  <option value="Male">50-100lbs</option>
+                  <option value="Male">100+ lbs</option>
+                </select>
           </label>
-          <br />
-          <br />
+          
+ <br/>
 
           <input type="submit"  value="Submit" onClick={this.handleSubmit}/>
       </form>
