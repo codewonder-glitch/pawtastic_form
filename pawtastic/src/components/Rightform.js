@@ -1,5 +1,6 @@
 import './Rightform.css';
 import React, { Component } from 'react'
+import Footer from './Footer'
 
 export default class Rightform extends Component {
   constructor(props) {
@@ -13,7 +14,7 @@ export default class Rightform extends Component {
   }
 
     this.handleChange = this.handleChange.bind(this)
-    this.handleSubmit = this.handleSubmit.bind(this)
+    
   }
 
   handleChange(event) {
@@ -21,11 +22,7 @@ export default class Rightform extends Component {
     // this.setState({Breed: event.target.Breed});
   }
 
-  handleSubmit(event) {
-    alert(`A name was submitted: ${this.state.Spay}`);
-    event.preventDefault();
-
-  } 
+  
 
   render() {
     return (
@@ -93,9 +90,10 @@ export default class Rightform extends Component {
           
  <br/>
 
-          <input type="submit"  value="Submit" onClick={this.handleSubmit}/>
+          {/* <input type="submit"  value="Submit" onClick={this.handleSubmit}/> */}
       </form>
       </div>
+      
     )
   }
 }

@@ -10,6 +10,7 @@ export default class App extends Component {
     
 render(){
 return(
+  <div id="wrapper">
   <div className="App">
     
       <Leftform />
@@ -21,6 +22,7 @@ return(
      
     
   
+  </div>
   </div>
 );
 

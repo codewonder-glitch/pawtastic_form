@@ -36,3 +36,13 @@ background-color: lavenderblush;
 background-color: white;
 grid-area: footer; 
 } 
+#wrapper{
+
+  height:594px;
+  Width:900px; 
+  background-color: grey;
+padding: 50px;
+  border :2px solid black;
+
+
+}
