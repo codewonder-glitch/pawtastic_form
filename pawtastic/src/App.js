@@ -11,9 +11,15 @@ export default class App extends Component {
 render(){
 return(
   <div className="App">
-  <Leftform />
-   <Rightform />   
-   <Footer />
+    
+      <Leftform />
+    
+
+    <Rightform />  
+     
+       <Footer />
+     
+    
   
   </div>
 );

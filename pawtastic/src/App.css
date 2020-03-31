@@ -1,14 +1,36 @@
 .App {
-  text-align: center;
-   /* width:200%;
-  height:200%;  */
-  /* display: table;
-  clear: both; */
-background-color: burlywood;
-  /* grid-template-rows:auto auto;
-  padding:20%;
-  align-items: center;
-  justify-content: center;
-} */
-}
+  
+ display:Grid;
+  background-color:darkgrey;
+   height:594px;
+  Width:900px; 
+ grid-template-columns: 35%  auto;  
 
+  grid-template-areas: 
+"navbar header"
+"navbar footer";
+} 
+ #leftdiv{
+    
+     /* width: 25%;
+    height:70%;  */
+    background-color: gray;
+    /* position:absolute; */
+    background-color: blue;
+grid-area: navbar;
+
+   
+       /* left:200px;    */
+
+  }
+#header{
+background-color: green;
+ grid-area: header; 
+ /* position:absolute;
+ height:70%; */
+}
+#footer{
+
+background-color: hotpink;
+grid-area: footer; 
+} 

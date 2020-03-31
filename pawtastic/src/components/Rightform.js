@@ -29,6 +29,7 @@ export default class Rightform extends Component {
 
   render() {
     return (
+      <div id="header">
       <form id="form1" onSubmit={this.handleChange}>
         <h1>Yay We Love Dogs!</h1>
         <h1>Give us the basic about your pup</h1>
@@ -57,7 +58,7 @@ export default class Rightform extends Component {
 
           
                 Gender <br />
-                <select class='twoOptions' size="2">
+                <select className='twoOptions' size="2">
                   <option value="Female">Female</option>
                   <option value="Male">Male</option>
                 </select>
@@ -80,6 +81,7 @@ export default class Rightform extends Component {
 
           <input type="submit"  value="Submit" onClick={this.handleSubmit}/>
       </form>
+      </div>
     )
   }
 }
