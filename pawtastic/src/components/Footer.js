@@ -17,7 +17,7 @@ export default class Footer extends Component {
     
     
     return(
-        <div id="footeer">
+        <div id="footer">
          <input className="fbtn" type="submit"  value="Back" onClick={this.handleSubmit}/>
          <input className="fbtn" type="submit"  value="Next" onClick={this.handleSubmit}/>
          </div>

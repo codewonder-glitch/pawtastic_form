@@ -28,8 +28,7 @@ export default class Rightform extends Component {
     return (
       <div id="header">
       <form id="form1" onSubmit={this.handleChange}>
-        <h1>Yay We Love Dogs!</h1>
-        <h1>Give us the basic about your pup</h1>
+        <h1>Yay We Love Dogs!,Give us the basic about your pup</h1>
         <label>  
           Name: 
           <br />
