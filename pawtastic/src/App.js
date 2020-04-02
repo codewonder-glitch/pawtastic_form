@@ -15,10 +15,9 @@ return(
     
       <Leftform />
     
-
-    <Rightform />  
+      <Rightform />  
      
-       <Footer />
+      <Footer />
      
     
   
