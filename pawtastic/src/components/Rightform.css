@@ -1,14 +1,5 @@
 #form1{
-    /* position: absolute;
-   width: 40%;
-  height:65%; 
-  right:231px;  
-  
-    color:white;
-    background-color:orchid;
-  */
-   /* display: inline-block;  */
-  /* display:inline; */
+    
   
  align-items: center;
     
@@ -19,10 +10,9 @@
   }
   option {
      width: 60px;  
-  
     display: inline-block;
     padding:5px;
-     padding-right:6px; 
+    padding-right:6px; 
     padding-left: 6px; 
     text-align: center;
     border-radius: 4px;
@@ -30,33 +20,20 @@
       /* margin:5px; */
       
     }
-    
   
-  #footer{
-    
-     /* justify-content: center;
-      bottom:148px;
-    position: absolute;
-    height:70px;
-    width:576px;
-    
-    right:231px;  */
-  }
-
   .fbtn{
 
     font-size: 16px;
-    
     border-radius: 20px;
     color: darkgrey;
     height: 40px;
     width: 100px;
     margin-left: 80px;
-  margin-top: 40px;
+    margin-top: 40px;
   }
 
   input[type=text]{
-    /* width: 25%; */
+    
     padding: 10px 10px;
     margin: 4px 0;
     display: inline-block;
@@ -65,8 +42,7 @@
     box-sizing: border-box;
   }
   select{
-      /* padding-right: 22px;
-      padding-left: 22px; */
+     
     margin: 2px 0;
     display: inline-block;
     border: 1px solid #ccc;
@@ -77,17 +53,13 @@
 /* width:45%; */
   }
 
-  input[type=submit]{
-    /* width: 25%; */
-   
-
-  }
+  
   label{
-display: inline-block; 
-box-sizing: border-box;
-padding-right:20px;
-padding-bottom: 10px;
-align-items: center;
+    display: inline-block; 
+    box-sizing: border-box;
+    padding-right:20px;
+    padding-bottom: 10px;
+    align-items: center;
 
   }
   
